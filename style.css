@@ -124,11 +124,41 @@ video{
     z-index: 99;
 }
 #scroller h4{
-    font-size: 140px;
+    font-size: 100px;
     font-weight: 900;
     font-family: gilroy;
     margin-right: 10px;
+    transition: all linear 0.5s;
     color: transparent;
     -webkit-text-stroke: 2px #95C11E;
+
+}
+#about-us{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    padding: 0 50px;
+    align-items: center;
+    justify-content: space-around;
+}
+#about-us img{
+    height: 220px;
+    width: 300px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+#about-us-in{
+    width: 50%;
+    text-align: center;
+}
+#about-us-in h3{
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 40px;
+
+}
+#abouy-us-in-p{
+    font-size: 20px;
+    line-height: 26px;
 
 }
