@@ -167,18 +167,20 @@ video{
     height: 60vh;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 70px;
     position: relative;
     z-index: 10;
 
 }
 .card{
     height: 80%;
-    width: 24%;
-    /* background-color: blue; */
+    width: 30%;
+    background-color: blue;
     border-radius: 20px;
     background-size: cover;
     background-position: center;
+    overflow: hidden;
 }
 #card1{
     background-image: url(https://sidcup-family-golf-rishabh07r.netlify.app/Assests/card1.avif);
@@ -188,4 +190,29 @@ video{
 }
 #card3{
     background-image: url(https://sidcup-family-golf-rishabh07r.netlify.app/Assests/card3.avif);
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: #95C11E;
+    padding: 30px;
+    padding-top: 160px;
+    opacity: 0;
+    transition: all ease 0.6s;
+
+}
+.overlay h4{
+    color:#000 ;
+    font-size: 40px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+.overlay p{
+    color:#000
+    font-size: 18px;
+}
+.card:hover .overlay{
+    opacity:  1;
 }
