@@ -333,3 +333,19 @@ video{
     color: #000;
     -webkit-text-stroke: 2px #fff;
 }
+#footer{
+     height: 40vh;
+     width: 100%;
+     background: linear-gradient(to left bottom,#119f3A,#ACE022);
+     position: relative;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 150px;
+     padding: 0 100px;
+
+
+}
+#footer>img{
+    position: absolute;
+}
